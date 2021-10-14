@@ -1,0 +1,30 @@
+{
+  "name": "discordwebhooks.js",
+  "version": "0.0.1",
+  "description": "A fast & lightweight Node.js wrapper for the Discord Webhook API.",
+  "main": "./src/index.js",
+  "typings": "./index.d.ts",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./src/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "webhooks",
+    "discord",
+    "discord.js",
+    "hyeong",
+    "djswebhook13"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/Hyeongcho/DiscordWebhooks.js"
+  },
+  "author": "Hyeongcho",
+  "license": "MIT"
+}
